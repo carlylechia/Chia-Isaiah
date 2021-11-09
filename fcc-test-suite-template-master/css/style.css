@@ -1,0 +1,33 @@
+body {
+  font-family: "nunito";
+  color: white;
+  background-color: black;
+  line-height: 1.4;
+  width: 100%;
+}
+#navbar {
+  position: absolute;
+}
+
+@media only screen and (max-width: 800px) {
+  #navbar {
+    position: absolute;
+    max-height: 200px;
+    max-width: 200px;
+    width: 200px;
+
+    top: 0px;
+    left: 0px;
+
+    color: black;
+    background-color: rgb(6, 5, 78);
+    padding: 75px 0px;
+
+    z-index: 1;
+  }
+  #main-doc {
+    position: relative;
+    margin-top: 340px;
+    margin-left: 0px;
+  }
+}
